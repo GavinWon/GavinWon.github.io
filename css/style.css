@@ -2625,12 +2625,36 @@ h6 {
         padding-top: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
       color: #fff;
-      font-size: 21px;
+      font-size: 28px;
       text-transform: uppercase;
-      margin-bottom: 20px; }
+      margin-bottom: 5px; }
+    .tabs_inner .tab-content .tab-pane .list li .media .media-body h5 {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.85);
+        padding-top: 2px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-left: 5%;
+        float: left;
+        display: inline;
+}
     .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
       color: rgba(255, 255, 255, 0.75);
       margin-bottom: 0px; }
+
+.icon-award-left {
+    color: #99FFFF;
+    display: inline;
+    float: left;
+    padding-right: 2%;
+    display: inline;
+}
+
+.icon-award-right {
+    color: #99FFFF;
+    margin-left: 0;
+    display: inline;
+}
 
 /* End My Tabs Area css
 ============================================================================================ */
