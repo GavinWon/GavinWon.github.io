@@ -86,6 +86,11 @@ button:focus {
   padding-top: 100px;
   padding-bottom: 100px; }
 
+.p_5 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+
 .pad_top {
   padding-top: 120px; }
 
@@ -115,6 +120,12 @@ button:focus {
   .main_title h2 {
     font-family: "Heebo", sans-serif;
     font-size: 36px;
+    color: #222222;
+    margin-bottom: 15px;
+    text-transform: uppercase; }
+    .main_title h3 {
+    font-family: "Heebo", sans-serif;
+    font-size: 24px;
     color: #222222;
     margin-bottom: 15px;
     text-transform: uppercase; }
@@ -2817,7 +2828,6 @@ h6 {
   margin-bottom: -45px; }
 
 .h_gallery_item {
-  display: inline-block;
   margin-bottom: 45px; }
   .h_gallery_item .g_img_item {
     position: relative;
@@ -2923,6 +2933,15 @@ h6 {
 ============================================================================================ */
 .footer_area {
   background: #000; }
+.footer_area p {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #777777;
+}
+.footer_area a {
+    color: #777777;
+}
 
 .f_title {
   margin-bottom: 35px; }
@@ -2934,7 +2953,7 @@ h6 {
     margin-bottom: 0px; }
 
 .ab_widget p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
   color: #777777;
@@ -2999,17 +3018,18 @@ h6 {
     color: #fff; }
 
 .social_widget p {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 30px;
+  line-height: 30px;
   font-family: "Roboto", sans-serif;
   color: #777777;
-  margin-bottom: 10px; }
+  margin-bottom: 5px; }
 .social_widget .list li {
   margin-right: 17px;
+    margin-top:5px;
   display: inline-block; }
   .social_widget .list li a {
     color: #cccccc;
-    font-size: 14px;
+    font-size: 25px;
     transition: all 300ms linear 0s; }
   .social_widget .list li:last-child {
     margin-right: 0px; }

@@ -6439,7 +6439,7 @@ button.bg-dark:hover {
 }
 
 .border-top {
-    border-top: 1px solid #dee2e6 !important
+    border-top: 1px solid #add8e6 !important
 }
 
 .border-right {
@@ -7976,7 +7976,7 @@ button.bg-dark:hover {
 
 .pt-5,
 .py-5 {
-    padding-top: 3rem !important
+    padding-top: 0rem !important
 }
 
 .pr-5,
