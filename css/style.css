@@ -3046,4 +3046,67 @@ h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 
+.page {
+  width: 100%;
+  margin-bottom: 7em; }
+  .page.four {
+    margin-bottom: 0; }
+  .page .heading {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #3e64ff; }
+
+.resume-wrap {
+  width: 100%;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px; }
+  .resume-wrap .icon {
+    width: 50px;
+    height: 50px;
+    background: #254BE6;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; }
+    .resume-wrap .icon span {
+      color: #fff;
+      font-size: 28px; }
+  .resume-wrap .text {
+    width: calc(100% - 50px); }
+  .resume-wrap .date {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    color: #254BE6; } /* #3e64ff */
+  .resume-wrap h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000               }
+  .resume-wrap .position {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000; }
+
+.hack_comp{
+  background-image: -moz-linear-gradient(0deg, #A9A0FF 0%, #A2FFFF 100%); /*#766DFF #88f3ff */
+  background-image: -webkit-linear-gradient(0deg, #A9A0FF 0%, #A2FFFF 100%);
+  background-image: -ms-linear-gradient(0deg, #A9A0FF 0%, #A2FFFF 100%);
+}
+
+.text  {
+  font-weight: 700;
+  font-size: 30px;
+  color: #3e64ff;
+  display: block; }
+
+.text{
+  display: block;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8); }
+
+.pl-3,
+.px-3 {
+  padding-left: 1rem !important; }
 /*# sourceMappingURL=style.css.map */
