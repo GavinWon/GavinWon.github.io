@@ -3046,6 +3046,9 @@ h6 {
 ============================================================================================ */
 /*---------------------------------------------------- */
 
+/*----------------------------------------------------*/
+/* Hackathons/Competiton CSS
+============================================================================================ */
 .page {
   width: 100%;
   margin-bottom: 7em; }
@@ -3127,5 +3130,63 @@ h6 {
   -ms-flex-pack: center !important;
   justify-content: center !important; }
 
+/*----------------------------------------------------*/
+/* End Hackathons/Competiton CSS
+============================================================================================ */
+
+.block-3 .text, .block-3 .image {
+  width: 100%;
+  padding: 10% 7%;
+  display: block; }
+  @media (min-width: 768px) {
+    .block-3 .text, .block-3 .image {
+      width: 100;
+      padding: 10% 7%; } }
+
+.block-3 .text {
+  background: #f8faff; }
+  .block-3 .text .subheading {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #a3c2d1; }
+  .block-3 .text .heading {
+    font-size: 30px;
+    margin-bottom: 30px; }
+    .block-3 .text .heading a {
+      color: #404044; }
+  .block-3 .text p:last-child {
+    margin-bottom: 0; }
+
+.block-3 .image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  @media (max-width: 767.98px) {
+    .block-3 .image {
+      height: 300px; } }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+  .no-gutters > .col,
+  .no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0; }
+
+/*
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden; }
+*/
 
 /*# sourceMappingURL=style.css.map */
