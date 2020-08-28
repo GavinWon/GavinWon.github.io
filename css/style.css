@@ -3134,17 +3134,23 @@ h6 {
 /* End Hackathons/Competiton CSS
 ============================================================================================ */
 
+.Hobbies {
+  background-image: -moz-linear-gradient(0deg, #F6EDFF 0%, #D5FFFF 100%); 
+  background-image: -webkit-linear-gradient(0deg, #F6EDFF 0%, #D5FFFF 100%);
+  background-image: -ms-linear-gradient(0deg, #F6EDFF 0%, #D5FFFF 100%);
+}
 .block-3 .text, .block-3 .image {
   width: 100%;
   padding: 10% 7%;
   display: block; }
   @media (min-width: 768px) {
     .block-3 .text, .block-3 .image {
-      width: 100;
+      width: 100%;
       padding: 10% 7%; } }
 
 .block-3 .text {
-  background: #f8faff; }
+  background: #f8faff;
+}
   .block-3 .text .subheading {
     font-size: 13px;
     text-transform: uppercase;
@@ -3172,8 +3178,7 @@ h6 {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+ }
 
 .no-gutters {
   margin-right: 0;
@@ -3182,6 +3187,24 @@ h6 {
   .no-gutters > [class*="col-"] {
     padding-right: 0;
     padding-left: 0; }
+
+.space {
+    margin-bottom: 40px;
+}
+
+.contain {
+    display: flex;
+    border: 1px solid #333;
+}
+
+.table {
+    display: table;
+}
+
+.cell {
+    display: table-cell;
+    background: #f8faff;
+}
 
 /*
 .ftco-animate {
