@@ -104,6 +104,11 @@ button:focus {
   .container {
     max-width: 1170px; } }
 
+@media (min-width: 1500px) {
+  .container2 {
+    max-width: 1300px; } }
+
+
 @media (min-width: 1620px) {
   .box_1620 {
     max-width: 1620px;
@@ -130,7 +135,7 @@ button:focus {
     margin-bottom: 15px;
     text-transform: uppercase; }
   .main_title p {
-    font-size: 16px;
+    font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     line-height: 26px;
@@ -2724,6 +2729,15 @@ h6 {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
+.rounded-corner {
+    border-radius: 20px;
+}
+
+.cell2 {
+    display: table-cell;
+    margin: 0px 2px;
+}
+
 /* End Feature Area css
 ============================================================================================ */
 /* Personal Profile Area css
@@ -3057,7 +3071,7 @@ h6 {
   .page .heading {
     font-weight: 800;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #3e64ff; }
 
 .resume-wrap {
@@ -3204,6 +3218,7 @@ h6 {
 .cell {
     display: table-cell;
     background: #f8faff;
+    margin: 0px 2px;
 }
 
 /*
