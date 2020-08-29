@@ -471,7 +471,7 @@ button:focus {
     margin-bottom: 20px;
     transition: all 300ms linear 0s; }
   .l_blog_item p {
-    margin-bottom: 0px; }
+    margin-bottom: 5px; }
   .l_blog_item:hover h4 {
     color: #766dff; }
 
@@ -2894,7 +2894,7 @@ h6 {
       margin-top: 22px;
       transition: all 300ms linear 0s; }
     .h_gallery_item .g_item_text p {
-      margin-bottom: 0px; }
+      margin-bottom: 15px; }
   .h_gallery_item:hover .g_img_item:before {
     opacity: .85; }
   .h_gallery_item:hover .g_img_item .light {
