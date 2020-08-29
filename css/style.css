@@ -2705,7 +2705,7 @@ h6 {
     display: block; }
     .feature_item i:before {
       margin-left: 0px;
-      font-size: 60px;
+      font-size: 40px;
       color: #e1e1e1;
       line-height: 60px; }
   .feature_item h4 {
@@ -2737,6 +2737,18 @@ h6 {
     display: table-cell;
     margin: 0px 2px;
 }
+
+.researchh2 {
+    display: inline-block !important;
+    margin-top: 0px;
+}
+
+.research a {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
 
 /* End Feature Area css
 ============================================================================================ */
