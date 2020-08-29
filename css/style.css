@@ -44,6 +44,10 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+html {
+    scroll-behavior: smooth
+}
+
 .list {
   list-style: none;
   margin: 0px;
@@ -65,6 +69,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: #777777; }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Heebo", sans-serif;
