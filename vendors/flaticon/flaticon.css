@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 26/07/2020 00:44
+  	Creation date: 26/08/2020 06:19
   	*/
 
 @font-face {
@@ -22,12 +22,20 @@
   }
 }
 
+
+
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
+    font-size: 50px;
+    font-style: normal;
 }
 
-.flaticon-award:before { content: "\f100"; }
+.flaticon-planner-1:before{
+    font-size: 65px !important;
+}
+
+.flaticon-woman-1:before { content: "\f100"; }
+.flaticon-woman:before { content: "\f101"; }
+.flaticon-planner-1:before { content: "\f102"; }
+

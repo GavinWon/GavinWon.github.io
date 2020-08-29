@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 26/07/2020 00:44
+    Creation date: 26/08/2020 06:19
     */
 
     @font-face {
@@ -37,6 +37,10 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-award:before { content: "\f100"; }
+    .flaticon-woman-1:before { content: "\f100"; }
+.flaticon-woman:before { content: "\f101"; }
+.flaticon-planner-1:before { content: "\f102"; }
     
-    $font-Flaticon-award: "\f100";
+    $font-Flaticon-woman-1: "\f100";
+    $font-Flaticon-woman: "\f101";
+    $font-Flaticon-planner-1: "\f102";
