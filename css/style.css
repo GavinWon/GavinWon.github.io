@@ -118,13 +118,24 @@ button:focus {
     max-width: 1300px; } }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1620px) {
   .box_1620 {
-    max-width: 1200px;
+    max-width: 1620px;
     margin: auto;
     width: 100%;
     padding-left: 0px;
     padding-right: 0px; } }
+
+.tag {
+opacity: 0;
+transform: translate(0, 10vh);
+transition: all 1s;
+}
+
+.tag.visible {
+opacity: 1;
+transform: translate(0, 0);
+}
 /* Main Title Area css
 ============================================================================================ */
 .main_title {
@@ -366,7 +377,7 @@ canvas {
   .home_banner_area .banner_inner {
     position: relative;
     width: 100%;
-    min-height: 700px;
+    min-height: 500px;
     display: flex; }
     .home_banner_area .banner_inner .banner_content {
       color: #222222;
@@ -374,7 +385,7 @@ canvas {
       align-self: center;
       text-align: left; }
       .home_banner_area .banner_inner .banner_content .media .d-flex {
-        padding-right: 90px; }
+        padding-right: 125px; }
       .home_banner_area .banner_inner .banner_content .media .media-body {
         vertical-align: middle;
         align-self: center; }
@@ -390,7 +401,7 @@ canvas {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 780px;
+    min-height: 700px;
     z-index: 1; }
     .blog_banner .banner_inner .overlay {
       background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
@@ -419,6 +430,10 @@ canvas {
         line-height: 42px;
         padding: 0px 45px;
         border-radius: 5px; }
+
+.banner_inner {
+    max-height: 700px;
+}
 
 .banner_box {
   max-width: 1620px;

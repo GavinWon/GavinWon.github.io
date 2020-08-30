@@ -1,23 +1,15 @@
-$(document).ready(function() {
+$(document).on("scroll", function() {
+var pageTop = $(document).scrollTop();
+var pageBottom = pageTop + $(window).height();
+var tags = $(".tag");
 
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
+for (var i = 0; i < tags.length; i++) {
+var tag = tags[i];
 
-        /* Check the location of each desired element */
-        $('.Projects').each( function(i){
-
-            var bottom_of_object = $(this).position().top + ($(this).outerHeight())/3;
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-            /* If the object is completely visible in the window, fade it it */
-            if( bottom_of_window > bottom_of_object ){
-
-                $(this).animate({'opacity':'1'},500);
-
-            }
-
-        });
-
-    });
-
+if ($(tag).position().top < pageBottom + 25) {
+$(tag).addClass("visible");
+} else {
+$(tag).removeClass("visible");
+}
+}
 });
