@@ -150,7 +150,7 @@ transform: translate(0, 0);
     text-transform: uppercase; }
     .main_title h3 {
     font-family: "Heebo", sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     color: #222222;
     margin-bottom: 15px;
     text-transform: uppercase; }
@@ -159,7 +159,7 @@ transform: translate(0, 0);
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     line-height: 26px;
-    color: #777777;
+    color: #444444;
     margin-bottom: 0px; }
 
 /* End Main Title Area css
