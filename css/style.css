@@ -68,7 +68,10 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #777777; }
+  color: #777777; 
+  transition: background-color 1s ease;
+  transition: background-image 1s ease;
+}
 
 
 
@@ -115,9 +118,9 @@ button:focus {
     max-width: 1300px; } }
 
 
-@media (min-width: 1620px) {
+@media (min-width: 1200px) {
   .box_1620 {
-    max-width: 1620px;
+    max-width: 1200px;
     margin: auto;
     width: 100%;
     padding-left: 0px;
@@ -177,14 +180,14 @@ button:focus {
       .header_area .navbar .nav  .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
         color: #fff; }
 
-    .nav-link{
+    .navbar-extra{
             color: #fff !important;
             padding-bottom: 2px !important;
             margin-bottom: 0px;
 /*            border-bottom: 2px solid transparent;*/
             transition: border-bottom 0.2s;
         }
-        .nav-link:hover{
+        .navbar-extra:hover{
             color: #4DFFFF !important;
 /*            border-bottom: 2px solid #4DFFFF;*/
         }
@@ -333,21 +336,25 @@ button:focus {
 /* Project Area
 ============================================================================================ */
 canvas {
-  
   position: absolute;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #fff;
 }
 
 .home_banner_area {
   position: relative;
   z-index: 1;
+    height: 100vh;
+    width: 100vw;
+  background: canvas(c);
+*/
+/*
   background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-    
-  margin-bottom: 200px; }
+*/
+    }
   .home_banner_area .box_1620 {
     min-height: 700px;
     border-radius: 12px;
@@ -367,7 +374,7 @@ canvas {
       align-self: center;
       text-align: left; }
       .home_banner_area .banner_inner .banner_content .media .d-flex {
-        padding-right: 125px; }
+        padding-right: 90px; }
       .home_banner_area .banner_inner .banner_content .media .media-body {
         vertical-align: middle;
         align-self: center; }
@@ -2515,6 +2522,8 @@ h6 {
 /*----------------------------------------------------*/
 /* About Me css
 ============================================================================================ */
+.welcome_area {
+}
 .welcome_inner .welcome_img {
   background: #eeeeee;
   margin-left: 40px;
@@ -2788,7 +2797,7 @@ h6 {
 .profile_inner {
   border-bottom: 1px solid #eeeeee; }
   .profile_inner .personal_text {
-    padding-left: 95px; }
+    padding-left: 40px; }
 
 .personal_text h6 {
   font-size: 14px;
@@ -2858,6 +2867,12 @@ h6 {
 /*----------------------------------------------------*/
 /* Gallery Area css
 ============================================================================================ */
+.home_gallery_area {
+  background-image: -moz-linear-gradient(0deg, #A7FFFF 0%, #C6D0FF 100%);
+  background-image: -webkit-linear-gradient(0deg, #A7FFFF 0%, #C6D0FF 100%);
+  background-image: -ms-linear-gradient(0deg, #A7FFFF 0%, #C6D0FF 100%);
+}
+
 .isotope_fillter {
   margin-bottom: 50px; }
   .isotope_fillter .gallery_filter {
@@ -2915,6 +2930,7 @@ h6 {
       margin-top: 22px;
       transition: all 300ms linear 0s; }
     .h_gallery_item .g_item_text p {
+        color: #222222 !important;
       margin-bottom: 15px; }
   .h_gallery_item:hover .g_img_item:before {
     opacity: .85; }
