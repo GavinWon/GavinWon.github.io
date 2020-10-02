@@ -45,7 +45,9 @@ Table of Content:
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .list {
